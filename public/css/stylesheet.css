@@ -15,3 +15,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.aboutDiv {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.aboutParagraph {
+  font-size: 26px;
+  font-weight: 100;
+  font-family: 'Maven Pro', sans-serif;
+  color: #7e7e7e;
+}
