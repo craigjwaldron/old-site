@@ -16,9 +16,35 @@ img {
   height: auto;
 }
 
+.mainHeader {
+  background-image: url("../assets/Craig-Waldron.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.mainTitle {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+}
+
+/*ABOUT SECTION*/
 .aboutDiv {
   width: 50%;
-  margin: 0 auto;
+  margin: 15em auto;
+}
+
+.aboutTitle {
+  font-weight: 500;
+  color: #5c5c5c;
+  font-family: century gothic, gill sans;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  margin-right: 2em;
 }
 
 .aboutParagraph {
