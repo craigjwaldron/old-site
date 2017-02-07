@@ -23,19 +23,33 @@ img {
   height: 70vh;
 }
 
-.mainTitle {
+.title {
   position: relative;
-  float: left;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  width: 70%;
+  margin: 15em auto;
+}
+
+.mainTitle {
+  font-family: century gothic, gill sans;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #FFF;
+
+}
+
+.subTitle {
+  font-family: century gothic, gill sans;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 4px;
   color: #FFF;
 }
 
 /*ABOUT SECTION*/
 .aboutDiv {
-  width: 50%;
-  margin: 15em auto;
+  width: 70%;
+  margin: 12em auto;
 }
 
 .aboutTitle {
@@ -48,7 +62,7 @@ img {
 }
 
 .aboutParagraph {
-  font-size: 26px;
+  font-size: 2em;
   font-weight: 100;
   font-family: 'Maven Pro', sans-serif;
   color: #7e7e7e;
