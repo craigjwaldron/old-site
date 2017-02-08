@@ -11,11 +11,7 @@ body {
    overflow-x: hidden;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
+/*HEADER SECTION*/
 .mainHeader {
   background-image: url("../assets/Craig-Waldron.jpg");
   background-size: cover;
@@ -49,7 +45,7 @@ img {
 /*ABOUT SECTION*/
 .aboutDiv {
   width: 70%;
-  margin: 12em auto;
+  margin: 15em auto;
 }
 
 .aboutTitle {
@@ -62,7 +58,7 @@ img {
 }
 
 .aboutParagraph {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 100;
   font-family: 'Maven Pro', sans-serif;
   color: #7e7e7e;
