@@ -1,3 +1,4 @@
+
 html {
   width: 100%;
   margin: 0 auto 0 auto;
@@ -59,7 +60,7 @@ body {
 .aboutDiv {
   width: 58%;
   margin: 10em auto 10em auto;
-  padding: 15em 0em 20em 0em !important;
+  padding: 10em 0em 15em 0em !important;
 }
 
 .aboutTitle {
@@ -80,28 +81,15 @@ body {
 }
 
 /*PROJECT SECTION*/
-
-/*MALIA PROJECT*/
-.maliaDiv {
-  background-color: #f3a90a;
-}
-
-.maliaHeader {
+.projHeader {
   font-size: 2.5em;
   font-weight: 500;
   font-family: century gothic, gill sans;
 }
 
-.maliaText {
-  padding: 5em;
-  color: #5c5c5c;
-  font-family: 'Maven Pro', sans-serif;
-}
+.projText {
+  font-family: 'Open Sans', sans-serif;
 
-.leftImg {
-  float: left;
-  min-width: 100%;
- min-height: 100%
 }
 
 .projImg {
@@ -109,6 +97,42 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.textRight {
+  padding: 5em;
+  color: #FFF;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: right;
+}
+
+.textLeft {
+  padding: 5em;
+  color: #FFF;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: left;
+}
+
+/*MALIA PROJECT*/
+.maliaDiv {
+  background-color: #ea9f00;
+}
+
+/*PROSMASH PROJECT*/
+.proDiv {
+  background-color: #1e7bad;
+}
+
+.hopeDiv {
+  background-color: #849c63;
+}
+
+.taskDiv {
+  background-color: #677077;
+}
+
+.calcDiv {
+  background-color: #252839;
 }
 
 /*BUTTONS*/
@@ -130,13 +154,13 @@ body {
 
 .button5 {
   background-color: transparent;
-  color: #5c5c5c;
-  border: 1px solid #5c5c5c;
+  color: #FFF;
+  border: 1px solid #FFF;
 }
 
 .button5:hover {
-  background-color: #5c5c5c;
-  color: white;
+  background-color: #FFF;
+  color: #5c5c5c;
 }
 
 /*LINKS*/
