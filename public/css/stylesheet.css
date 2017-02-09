@@ -16,6 +16,10 @@ body {
   padding: 0px !important;
 }
 
+.col-sm-5 {
+  padding: 0px !important;
+}
+
 /*HEADER SECTION*/
 .mainHeader {
   background-image: url("../assets/Craig-Waldron.jpg");
@@ -51,7 +55,7 @@ body {
 .aboutDiv {
   width: 58%;
   margin: 10em auto 10em auto;
-  padding: 20em 0em 20em 0em !important;
+  padding: 15em 0em 20em 0em !important;
 }
 
 .aboutTitle {
@@ -72,20 +76,67 @@ body {
 }
 
 /*PROJECT SECTION*/
-.projectDiv {
-  display: block;
+
+/*MALIA PROJECT*/
+.maliaDiv {
 }
 
-.project1 {
-  background-color: #e1e1e1;
+.maliaDesc {
+  height: auto;
+  background-color: #f3a90a;
+}
+
+.maliaHeader {
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: century gothic, gill sans;
+}
+
+.maliaText {
+  padding: 3em;
+  color: #5c5c5c;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.prosmashDesc {
   height: 400px;
+  background-color: #1c78ac;
 }
 
-.project2 {
-  background-color: #9e9e9e;
-  height: 600px;
+/*BUTTONS*/
+.button {
+  cursor: pointer;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  border: none;
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2em 0 2em 0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
-.rightProject {
+.button5 {
+  background-color: transparent;
+  color: #5c5c5c;
+  border: 1px solid #5c5c5c;
+}
 
+.button5:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+
+/*LINKS*/
+.linkDiv{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3em;
+  background: #FFF;
+  color: #5c5c5c;
 }
