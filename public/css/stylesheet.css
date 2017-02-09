@@ -89,7 +89,8 @@ body {
 
 .projText {
   font-family: 'Open Sans', sans-serif;
-
+  color: #FFF;
+  font-size: 16px;
 }
 
 .projImg {
