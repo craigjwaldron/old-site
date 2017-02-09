@@ -20,6 +20,10 @@ body {
   padding: 0px !important;
 }
 
+.col-sm-7 {
+  padding: 0px !important;
+}
+
 /*HEADER SECTION*/
 .mainHeader {
   background-image: url("../assets/Craig-Waldron.jpg");
@@ -79,10 +83,6 @@ body {
 
 /*MALIA PROJECT*/
 .maliaDiv {
-}
-
-.maliaDesc {
-  height: auto;
   background-color: #f3a90a;
 }
 
@@ -93,14 +93,22 @@ body {
 }
 
 .maliaText {
-  padding: 3em;
+  padding: 5em;
   color: #5c5c5c;
   font-family: 'Maven Pro', sans-serif;
 }
 
-.prosmashDesc {
-  height: 400px;
-  background-color: #1c78ac;
+.leftImg {
+  float: left;
+  min-width: 100%;
+ min-height: 100%
+}
+
+.projImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 /*BUTTONS*/
