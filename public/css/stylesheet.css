@@ -34,7 +34,8 @@ body {
 }
 
 .titleContainer {
-  /*float: left;*/
+  float: left;
+  width: 100%;
 }
 
 .title {
@@ -78,7 +79,7 @@ body {
 }
 
 .aboutParagraph {
-  font-size: 64px;
+  font-size: 28px;
   font-weight: 100;
   font-family: 'Maven Pro', sans-serif;
   color: #7e7e7e;
