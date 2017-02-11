@@ -34,9 +34,9 @@ body {
 }
 
 .title {
-  position: relative;
+  /*position: relative;*/
   width: 70%;
-  margin: 10em auto 5em auto;
+  margin: 8em auto 5em auto;
 }
 
 .mainTitle {
