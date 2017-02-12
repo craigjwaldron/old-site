@@ -17,6 +17,10 @@ body {
   padding: 0px !important;
 }
 
+.col-sm-3 {
+  height: 0px;
+}
+
 .col-sm-5 {
   padding: 0px !important;
 }
@@ -31,12 +35,11 @@ body {
   background-size: cover;
   background-position: center;
   height: 75vh;
-  padding: 20em;
+  padding-bottom: 20em;
 }
 
 .titleContainer {
-  padding: 5em;
-  margin: 0 auto 5em auto;
+  margin: 0 auto 0em auto;
 }
 
 .title {
