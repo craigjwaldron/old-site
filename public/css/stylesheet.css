@@ -31,18 +31,21 @@ body {
   background-size: cover;
   background-position: center;
   height: 75vh;
+  padding: 20em;
 }
 
 .titleContainer {
-  float: left;
-  width: 100%;
+  padding: 5em;
+  margin: 0 auto 5em auto;
 }
 
 .title {
   /*position: relative;*/
-  width: 70%;
+  /*width: 70%;*/
+  /*float: right;*/
   padding: 15em;
-  /*margin: 0 auto 5em auto;*/
+  margin: 0 auto 5em auto;
+  padding: 150px;
 }
 
 .mainTitle {
@@ -51,6 +54,7 @@ body {
   font-size: 64px;
   letter-spacing: 3px;
   color: #FFF;
+  float: center;
 }
 
 .subTitle {
@@ -59,6 +63,7 @@ body {
   font-size: 18px;
   letter-spacing: 4px;
   color: #FFF;
+  float: center;
 }
 
 /*ABOUT SECTION*/
