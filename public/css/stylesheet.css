@@ -87,7 +87,7 @@ body {
 }
 
 .aboutParagraph {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 100;
   font-family: 'Maven Pro', sans-serif;
   color: #7e7e7e;
@@ -101,7 +101,8 @@ body {
 }
 
 .projText {
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-family: 'Maven Pro', sans-serif;
   color: #FFF;
   font-size: 16px;
 }
