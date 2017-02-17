@@ -30,6 +30,7 @@ body {
 }
 
 /*HEADER SECTION*/
+
 .mainHeader {
   background-image: url("../assets/Craig-Waldron.jpg");
   background-size: cover;
@@ -40,6 +41,7 @@ body {
 
 .titleContainer {
   margin: 0 auto 0em auto;
+
 }
 
 .title {
@@ -108,10 +110,10 @@ body {
 }
 
 .projImg {
-  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  object-fit: fill;
 }
 
 .textRight {
